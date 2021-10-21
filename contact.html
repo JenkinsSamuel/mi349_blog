@@ -4,55 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Sam</title>
+    <title>Contact page</title>
 </head>
+
 <body>
-
-    <header>
-        <h1>Samuel Jenkins</h1>
-        
-    </header>
-
-    <nav>
+    <h1>contact Samuel Jenkins</h1>
+    <nav class="menu">
         <ul>
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="about.html"> About </a></li>
-            <li><a href="contact.html"> Contact Sam </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Home</a></li>
+            <li><a href="contact.html">Home</a></li>
         </ul>
     </nav>
-
-
     <section>
+        <h2>
+            contact me below!
+        </h2>
+        
         <form action="form">
             <div>
-                <label>Name:
-                    <input type="text">
+                <label> email address
+                <input type="text">
                 </label>
             </div>
-
-            <div>
-                <label>Email address:
-                    <input type="email">
-                </label>
-            </div>
-
-            <div>
-                <label>Reason for contact
-                    <select name="Reason" id="Reason">
-                        <option value="saying hi">saying hi</option>
-                        <option value="looking for a contractor">looking for a contractor</option>
-                        <option value="interested in an interview">interested in an interview</option>
-                    </select>
-                </label>
-            </div>
-
-            <div>
-                <label>Comment
-                    <input type="text">
-                </label>
-            </div>
-
-            <button>Submit</button>
+            <label for="selector"> select an option
+                <select name="selector" id="selector">
+                    <option value="Business">Business</option>
+                    <option value="whatnot">whatnot</option>
+                    <option value="hello">Hello</option>
+                </select>
+            </label>
         </form>
     </section>
 </body>
