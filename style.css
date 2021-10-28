@@ -13,3 +13,16 @@ body {
     background-color: #5d5c61;
 
 }
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    border: 3em;
+}
+
