@@ -26,3 +26,28 @@ p{
     border: 3em;
 }
 
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+.article-post{
+    text-emphasis: none;
+}
+table{
+    text-align: center;
+}
+button{
+    color:red;
+}
+
+image{
+    border: 1px;
+    margin: 1px;
+}
+
+label{
+    color: cadetblue;
+    border: 1px black;
+}
+
