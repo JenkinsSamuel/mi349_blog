@@ -42,14 +42,17 @@ button{
 }
 .flex_1 {
     display: flex;
-    float: right;
+
 }
 
 .flex_2 {
     display: flex;
-    float: left;
+
 }
 
+.float_1 {
+    float: right;
+}
 
 image{
     border: 1px;
