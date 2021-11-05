@@ -42,10 +42,12 @@ button{
 }
 .flex_1 {
     display: flex;
+    float: right;
 }
 
 .flex_2 {
     display: flex;
+    float: left;
 }
 
 
