@@ -40,6 +40,14 @@ table{
 button{
     color:red;
 }
+.flex_1 {
+    display: flex;
+}
+
+.flex_2 {
+    display: flex;
+}
+
 
 image{
     border: 1px;
