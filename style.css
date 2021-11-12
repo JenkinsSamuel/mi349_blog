@@ -72,3 +72,8 @@ label{
     position: sticky;
     top: 0;
 }
+
+@media (max-width: 400px) {
+    .tagline {
+        display: none;
+    }
